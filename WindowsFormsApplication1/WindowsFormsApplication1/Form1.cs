@@ -103,6 +103,16 @@ namespace WindowsFormsApplication1
             isRunning = false;
         }
 
+        private void button4_Click(object sender, EventArgs e)
+        {
+            System.Diagnostics.Process.Start("http://honbot.freeforums.org");
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
 
     }
 }
